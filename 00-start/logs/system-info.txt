@@ -1,0 +1,95 @@
+===== KERNEL =====
+Linux luckfox 5.10.160 #22 Wed Jun 11 18:43:57 CST 2025 armv7l GNU/Linux
+===== OS =====
+NAME=Buildroot
+VERSION=-g2ae728b52-dirty
+ID=buildroot
+VERSION_ID=2023.02.6
+PRETTY_NAME="Buildroot 2023.02.6"
+===== CPU =====
+processor       : 0
+model name      : ARMv7 Processor rev 5 (v7l)
+BogoMIPS        : 48.00
+Features        : half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae 
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xc07
+CPU revision    : 5
+
+Hardware        : Generic DT based system
+Revision        : 0000
+Serial          : 54dc0152b44b673d
+===== MEMORY =====
+              total        used        free      shared  buff/cache   available
+Mem:         185564       11724      130188         368       43652      166600
+Swap:             0           0           0
+MemTotal:         185564 kB
+MemFree:          130164 kB
+MemAvailable:     166576 kB
+Buffers:           26080 kB
+Cached:            13000 kB
+SwapCached:            0 kB
+Active:            32568 kB
+Inactive:           9236 kB
+Active(anon):        228 kB
+Inactive(anon):     2864 kB
+Active(file):      32340 kB
+Inactive(file):     6372 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                60 kB
+Writeback:             0 kB
+AnonPages:          2744 kB
+Mapped:             5356 kB
+===== STORAGE =====
+dev:    size   erasesize  name
+mtd0: 10000000 00020000 "spi-nand0"
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 5.8G     79.1M      5.6G   1% /
+devtmpfs                 90.5M         0     90.5M   0% /dev
+tmpfs                    90.6M         0     90.6M   0% /dev/shm
+tmpfs                    90.6M    156.0K     90.5M   0% /tmp
+tmpfs                    90.6M    212.0K     90.4M   0% /run
+/dev/block/by-name/userdata
+                        237.9M     16.0K    232.4M   0% /userdata
+/dev/block/by-name/oem
+                        487.6M     29.4M    451.0M   6% /oem
+/dev/root on / type ext4 (rw,relatime)
+devtmpfs on /dev type devtmpfs (rw,relatime,size=92680k,nr_inodes=23170,mode=755)
+proc on /proc type proc (rw,relatime)
+devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620,ptmxmode=666)
+tmpfs on /dev/shm type tmpfs (rw,relatime,mode=777)
+tmpfs on /tmp type tmpfs (rw,relatime)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,relatime,mode=755)
+sysfs on /sys type sysfs (rw,relatime)
+/dev/block/by-name/userdata on /userdata type ext4 (rw,relatime)
+/dev/block/by-name/oem on /oem type ext4 (rw,relatime)
+none on /sys/kernel/config type configfs (rw,relatime)
+adb on /dev/usb-ffs/adb type functionfs (rw,relatime)
+===== NETWORK =====
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq qlen 1000
+    link/ether ea:68:15:a9:c2:30 brd ff:ff:ff:ff:ff:ff
+3: usb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether fe:ea:ad:32:5a:1f brd ff:ff:ff:ff:ff:ff
+    inet 172.32.0.93/16 brd 172.32.255.255 scope global usb0
+       valid_lft forever preferred_lft forever
+===== DEVICES =====
+/dev/tty      /dev/tty12    /dev/tty17    /dev/tty21    /dev/tty26    /dev/tty30    /dev/tty35    /dev/tty4     /dev/tty44    /dev/tty49    /dev/tty53    /dev/tty58    /dev/tty62    /dev/ttyFIQ0
+/dev/tty0     /dev/tty13    /dev/tty18    /dev/tty22    /dev/tty27    /dev/tty31    /dev/tty36    /dev/tty40    /dev/tty45    /dev/tty5     /dev/tty54    /dev/tty59    /dev/tty63
+/dev/tty1     /dev/tty14    /dev/tty19    /dev/tty23    /dev/tty28    /dev/tty32    /dev/tty37    /dev/tty41    /dev/tty46    /dev/tty50    /dev/tty55    /dev/tty6     /dev/tty7
+/dev/tty10    /dev/tty15    /dev/tty2     /dev/tty24    /dev/tty29    /dev/tty33    /dev/tty38    /dev/tty42    /dev/tty47    /dev/tty51    /dev/tty56    /dev/tty60    /dev/tty8
+/dev/tty11    /dev/tty16    /dev/tty20    /dev/tty25    /dev/tty3     /dev/tty34    /dev/tty39    /dev/tty43    /dev/tty48    /dev/tty52    /dev/tty57    /dev/tty61    /dev/tty9
+/dev/i2c-4
+/dev/video0   /dev/video10  /dev/video12  /dev/video14  /dev/video16  /dev/video18  /dev/video2   /dev/video3   /dev/video5   /dev/video7   /dev/video9
+/dev/video1   /dev/video11  /dev/video13  /dev/video15  /dev/video17  /dev/video19  /dev/video20  /dev/video4   /dev/video6   /dev/video8
+===== DEVICE TREE =====
+Luckfox Pico Pro Max
+===== INIT =====
+init
